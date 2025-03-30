@@ -1,0 +1,12 @@
+name: SonSurumNpc
+version: 1.0-SNAPSHOT
+main: ekrem.plugins.sonSurumNpc.SonSurumNpc
+api-version: 1.13
+depend: [Vault]
+commands:
+  npccagir:
+    description: NPC'yi çağırır
+    usage: /npccagir
+  testbalance:
+    description: Test economy balance
+    usage: /testbalance
